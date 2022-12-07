@@ -36,24 +36,25 @@ npm install --save-dev @nomiclabs/hardhat-ethers "ethers@^5.0.0"
 npx hardhat compile
 
 ```
-## STARTUP: 
+TADA!!! It should compile...with correct credentials.
+
+## PROJECT STARTUP: 
+```
 > npm install
 > npx hardhat compile
 > npx hardhat node
 > npx hardhat test
+```
 ----
-## 1) Build a SCAFFOLD:
-> mkdir PROJECTS/CRYPTO/EXAMPLE && cd PROJECTS/CRYPTO/EXAMPLE
-> npm init -y
-> code .
-> create README.md
-> create ./scripts
-> npm install --save-dev hardhat
-> npx hardhat    //creates config
-> npx hardhat compile
-> npx hardhat node    //Hardhat Network, similar to ganache
-> npx hardhat run scripts/sample-script.js --network localhost
-- expose JSON-RPC interface. 
+## 1) INTERACT w CONTRACT:
+new file /scripts/deploy.js
+
+
+
+
+
+
+- Ethers expose JSON-RPC interface. 
 - Connect wallet or app to http://localhost:8545.
 ###HARDHAT
 - Hardhat Network, uses @ethereumjs/vm
