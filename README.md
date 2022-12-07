@@ -46,13 +46,17 @@ TADA!!! It should compile...with correct credentials.
 > npx hardhat test
 ```
 ----
-## 1) INTERACT w CONTRACT:
+## 1) DEPLOY CONTRACT:
 new file /scripts/deploy.js
 
+-- DEPLOY
+npx hardhat run scripts/deploy.js --network goerli
+//if hardhat config is correct (version) 
+Contract deployed to address: 0x9a9...
+--network //without this, uses 'default network' in hardhat.config
+//if no default in config - default is hardhat itself. and wont work.
 
-
-
-
+## 2) INTERACT w CONTRACT:
 
 - Ethers expose JSON-RPC interface. 
 - Connect wallet or app to http://localhost:8545.
