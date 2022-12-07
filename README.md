@@ -12,6 +12,26 @@ INDEX:
 ## CREATION:
 ```
 mkdir web3proj1 && cd web3proj1
+npm init --yes   //package.json
+
+npm install --save-dev hardhat
+
+npx hardhat   //create empty hardhat.config.js
+
+mkdir contracts && mkdir scripts   //separate commands
+
+new file: /contracts/HelloWorld.sol
+
+npm install dotenv --save    
+
+//create .env file
+API_URL = "https://eth-goerli.g.alchemy.com/v2/your-api-key"
+PRIVATE_KEY = "your-metamask-private-key"
+
+npm install --save-dev @nomiclabs/hardhat-ethers "ethers@^5.0.0"
+
+npx hardhat compile
+
 ```
 ## STARTUP: 
 > npm install
