@@ -28,6 +28,9 @@ npm install dotenv --save
 API_URL = "https://eth-goerli.g.alchemy.com/v2/your-api-key"
 PRIVATE_KEY = "your-metamask-private-key"
 
+//MetaMask Private Key is no joke. Keep private.
+//From > Account Details > Export Private Key > pwd!
+
 npm install --save-dev @nomiclabs/hardhat-ethers "ethers@^5.0.0"
 
 npx hardhat compile
