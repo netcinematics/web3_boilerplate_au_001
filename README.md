@@ -38,13 +38,6 @@ npx hardhat compile
 ```
 TADA!!! It should compile...with correct credentials.
 
-## PROJECT STARTUP: 
-```
-> npm install
-> npx hardhat compile
-> npx hardhat node
-> npx hardhat test
-```
 ----
 ## 1) DEPLOY CONTRACT:
 new file /scripts/deploy.js
@@ -54,7 +47,26 @@ npx hardhat run scripts/deploy.js --network goerli
 //if hardhat config is correct (version) 
 Contract deployed to address: 0x9a9...
 --network //without this, uses 'default network' in hardhat.config
-//if no default in config - default is hardhat itself. and wont work.
+//if no default in config - default is hardhat itself and wont work.
+
+## PROJECT STARTUP: 
+```
+```
+> npm install
+
+//INSTALL HARDHAT LOCALLY:
+npm install --save-dev hardhat
+
+> npx hardhat compile
+
+> npx hardhat run scripts/deploy.js --network goerli
+
+//Also
+> npx hardhat node
+> npx hardhat test
+```
+```
+
 
 ## 2) INTERACT w CONTRACT:
 
